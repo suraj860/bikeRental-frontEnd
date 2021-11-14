@@ -13,7 +13,6 @@ function VerifyMail(props){
       async function mailId(){ 
         try{
             const response = await axios.put(`https://bike-rental-portal.herokuapp.com/verify/${eToken}`)
-            console.log(eToken)
             setVmsg(response.data)
         }catch(error){
             console.log(error)
