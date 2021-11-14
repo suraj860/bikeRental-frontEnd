@@ -75,7 +75,7 @@ function Profile() {
     return { ...item, booking: oo };
   });
 
-  console.log(getter3)
+
 
   return (
     <>
