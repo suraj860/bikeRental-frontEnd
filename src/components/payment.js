@@ -85,7 +85,7 @@ function handleChange(event){
 
 function handleSubmit(event){
     event.preventDefault()
-    console.log("working")
+   
    resetData()
 }
 
