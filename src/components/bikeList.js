@@ -34,7 +34,6 @@ function BikeList() {
 let a =sDate.getTime()
 let b = eDate.getTime()
 
-console.log(sDate.toLocaleDateString().toString())
   return (
    <>
    <NavBar/>
